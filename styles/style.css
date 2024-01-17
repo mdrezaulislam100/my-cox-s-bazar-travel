@@ -1,0 +1,191 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.nav-container {
+    min-height: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+}
+
+.nav-container p {
+    font-size: 26px;
+    color: #131318;
+    font-weight: 800;
+}
+
+.nav-container img {
+    width: 40px;
+}
+
+.span-color {
+    color: #FF5400;
+    font-weight: 800;
+}
+
+.item-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-container a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--Dark-02, #424247);
+    font-weight: 400;
+}
+
+.item-container .span-home {
+    font-weight: 700;
+    color: #FF5400;
+}
+
+/* section start */
+
+.background-header {
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding: 40px 0px 80px 0px;
+    display: flex;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding: 60px 250px 0px 250px;
+    margin-bottom: 24px;
+}
+
+.title-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 240px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+/* main */
+.main-section {
+    width: 1200px;
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.main-section-head {
+    width: 50%;
+    /* border: 2px solid rgb(140, 0, 255); */
+}
+
+.main-section-img {
+    width: 540px;
+    height: 550px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(200, 255, 0);
+}
+
+.main-title {
+    color: #131318;
+    padding: 24px 0px 24px 0px;
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.main-description {
+    line-height: 26px;
+    margin: 24px 0px 24px 0px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.description-li {
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.main-description-2 {
+    width: 530;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button {
+    border: 12px solid #FF5400;
+    text-align: center;
+    margin: 32px 456px 0px 0%;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+/* footer */
+.footer-head{
+    border-radius: 2px solid red;
+    width: 100%;
+    margin: auto;
+    padding-top: 48px;
+    background-position: center;
+    gap: 24px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 676px) {
+    .nav-section {
+        flex-direction: column;
+    }
+
+    .item-container {
+        flex-direction: column;
+    }
+}
